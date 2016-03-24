@@ -1,0 +1,82 @@
+.ask-index{
+    position:absolute;
+    top:200px;
+    margin: 0 200px;
+    width: 400px;
+    height: 230px;
+    border-radius: 5px;
+    background: ghostwhite;
+    display: none;
+    border: 1px solid lightgray;
+}
+.ask-top{
+    margin: 0px;
+}
+.ask-title{
+    background: #1575d5;
+    height: 25px;
+    color:white;
+    border-radius: 5px 5px  0 0;
+    font-size: 18px;
+    text-indent: 10px;
+    padding: 5px;
+}
+.ask-content{
+    height: 130px;
+    width: 350px;
+    margin: 8px auto;
+}
+.ask-content div{
+    float: left;
+    width: 30px;
+    margin: 3px 5px;
+}
+.ask-texarea{
+    float:left;
+    width: 270px;
+    height: 130px;
+    margin: 3px 5px;
+    text-indent: 10px;
+    padding: 5px 3px;
+}
+.ask-button{
+    float: right;
+    width: 150px;
+    margin-top: 10px;
+}
+.ask-top .btn-blue{
+    background: #1472CF;
+    background-color: #1575d5;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    border: 1px solid #0D6EB8;
+    color: #fff !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2);
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none !important;
+    vertical-align: middle;
+    display: inline-block;
+    _display: inline !important;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin: 0 5px;
+    width:60px;
+}
+.ask-top .btn-white{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none !important;
+    vertical-align: middle;
+    display: inline-block;
+    _display: inline !important;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    /*white-space: nowrap;*/
+    margin: 0 5px;
+    width:60px;
+}

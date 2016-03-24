@@ -1,0 +1,155 @@
+@charset "utf-8";
+body{
+    /*line-height: 1.7;*/
+    font-size: 13px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #00bcd4;
+    z-index: 999;
+}
+.nav-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+}
+.logo>h1 {
+    margin: 0;
+    line-height: 50px;
+}
+.nav-form {
+    float: left;
+    position: relative;
+}
+.nav-form>input {
+    width: 300px;
+    height: 30px;
+    margin: 10px 10px 10px 15px;
+    padding: 3px 30px 3px 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav-form>button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    color: #ccc;
+}
+.nav-form>button:hover {
+    color: #666;
+}
+.nav-ask {
+    float: left;
+    height: 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: #00bcd4;
+    cursor: pointer;
+    background: #fff;
+}
+/* style for menubar
+--------------------------*/
+
+.menubar {
+    float: left;
+    padding: 0;
+    margin: 0 0 0 20px;
+    list-style: none;
+}
+.menu {
+    float: left;
+    line-height: 50px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.menu>a {
+    color: #fff;
+    text-decoration: none;
+}
+/* style for porfile
+-----------------------------------*/
+
+.nav-profile {
+    float: right;
+    position: relative;
+    width: 150px;
+}
+.userinfo {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+.userinfo>img {
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.userinfo>span {
+    display: inline-block;
+    max-width: 90px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.submenubar {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+}
+.submenu {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #00bcd4;
+    border-top: 1px solid #6bd7e5;
+}
+.submenu:hover {
+    background: #06aabe;
+}
+.submenu>a {
+    display: block;
+    line-height: 36px;
+    color: #fff;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+.submenu i {
+    display: inline-block;
+    padding: 0 10px;
+}
+.nav-profile:hover .userinfo {
+    background: #06aabe;
+}
+.nav-profile:hover .submenubar {
+    display: block;
+}

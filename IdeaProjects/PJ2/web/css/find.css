@@ -1,0 +1,37 @@
+
+.meta{
+  margin:5px;
+    border:1px solid deepskyblue;
+    border-radius: 3px;
+}
+.qus{
+    margin: 4px 5px;
+    padding: 3px 2px;
+    /*height: 20px;*/
+    float: left;
+    color:blue;
+}
+.qusLink{
+    margin: 2px 5px 6px 5px;
+    padding: 3px 2px;
+    width: 600px;
+    height: 20px;
+    float: left;
+}
+.qusAns{
+    margin: 2px 5px 6px 5px;
+    padding: 3px 2px;
+    width: 600px;
+    height: 20px;
+    float: left;
+}
+.qusUser{
+    margin:6px 5px 4px 7px;
+}
+.qusUser:hover{
+    color:indianred;
+}
+.meta span{
+    /*display:block;*/
+    margin:5px 6px;
+}

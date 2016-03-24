@@ -1,0 +1,168 @@
+body{
+    line-height: 1.7;
+    font-size: 13px;
+}
+.content-inner{
+    margin: -10px 10px 5px 3px;
+}
+.details-editform{
+    display: block;
+    margin-top: 0em;
+}
+.mbox{
+    margin: 0 0 25px;
+    clear: both;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 0 #f2f4f5;
+
+}
+.mbox-title{
+    position: relative;
+    padding: 0px 12px;
+}
+.profile-module{
+    color:#666;
+
+    clear:both;
+    position: relative;
+    padding: 24px 12px;
+
+
+}
+.profile-module+.profile-module{
+    border-top:1px solid #eee;
+}
+.profile-module h2 {
+    font-weight: 700;
+    font-size: 14px;
+    outline: 0;
+    margin: 0;
+
+}
+.profile-module h3{
+    margin: -1px 0 0;
+    float: left;
+    width: 100px;
+    text-align: right;
+    color: #666;
+}
+.zg-right{
+    float:right;
+
+}
+.zg-clear{
+    clear: both;
+}
+.zg-link-litblue{
+    color: #698ebf;
+    font-weight: 400;
+}
+
+.profile-avatar{
+    line-height:1.5;
+
+}
+.profile-avatar-module{
+    margin-left:140px;
+    margin-bottom: 20px;
+
+}
+.form-table {
+    width: 100%;
+    margin: 0;
+}
+.form-table-head {
+    width: 100px;
+    position: relative;
+    float: left;
+    text-align: right;
+
+}
+.avater-preview{
+    width: 100px;
+    height: 100px;
+    border: 0 none;
+    border-radius: 4px;
+
+}
+.table-field{
+    margin:0 0 0 125px;
+    padding: 0 0 10px;
+    vertical-align: top;
+    min-width: 60px;
+    position: relative;
+}
+.profile-avatar h3{
+    margin: -1px 0 0;
+    float: left;
+    width: 100px;
+    text-align: right;
+    color: #666;
+}
+.btn-blue{
+    background: #1472CF;
+    background-color: #1575d5;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    border: 1px solid #0D6EB8;
+    color: #fff !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2);
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none !important;
+    vertical-align: middle;
+    display: inline-block;
+    _display: inline !important;
+    text-align: center;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+.edit-avatar-btn{
+    min-width: 60px;
+    position: relative;
+    margin: 5px 0 0 27px;
+  }
+.profile-edit-tip{
+    margin:10px 0 0;
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.profile-module-desc{
+    margin-left:140px;
+}
+.edit-fieldset{
+    position: relative;
+    margin: -8px 0 0;
+    padding: 0;
+    border: 0;
+}
+
+.form-text-input{
+    width:270px;
+    padding: 8px 10px;
+    font-size: 13px;
+    line-height: 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1) inset;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #222;
+
+}
+.desc{
+    display: block;
+    margin: 10px 0;
+    color: #999;
+}
+.profile-module-footer p{
+    text-align: center;
+    position: relative;
+
+}
+.profile-module-footer{
+    padding: 0px 0px;
+}

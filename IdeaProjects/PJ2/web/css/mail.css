@@ -1,0 +1,51 @@
+.navigable{
+    border-top: solid 1px #ccc;
+}
+.content-inner-pm{
+    margin: -10px 10px 5px 3px;
+}
+.zm-pm-item{
+padding: 12px 0;
+min-height: 50px;
+}
+.zh-section h2{
+    font-weight: 700;
+    font-size: 14px;
+    outline: 0;
+    margin: 0;
+}
+.zm-item-img-avatar50 {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+.zm-item-link-avatar50 {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px 0 0;
+}
+.zm-pm-item-main {
+    position: relative;
+    margin: 0 0 0 62px;
+}
+.zm-pm-item-meta {
+
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.zm-pm-item-date {
+    float: left;
+
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
